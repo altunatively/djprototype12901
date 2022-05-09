@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.88.1">
+        <title>Carousel Template · Bootstrap v5.1</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+        }
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container-fluid mx-md-5 px-md-5">
+                    <a class="navbar-brand " href="#"><img src="https://takapedia.com/assets/img/settings/1649853749takapedia.png" alt="LOGO" height="40px" class="bi me-2">DANZJOKI</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home fa-lg text-muted"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-file text-muted"></i> Cek Transaksi</a>
+                            </li>			
+                        </ul>		  
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class = "container">
+                <div class="row">
+                    <div class="col-md-9 mx-auto text-center">
+                        <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                                </div>
+                                <div class="carousel-item">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1>Another example headline.</h1>
+                                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                                    <div class="container">
+                                        <div class="carousel-caption text-end">
+                                            <h1>One more for good measure.</h1>
+                                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div class="row mb-4 ">
+                            <div class="col-lg-9 mx-auto mt-4">
+                                <h5 class = "text-light">TOP UP GAME</h5>
+                                <div class="strip-primary"></div>
+                            </div>
+                            <div class="col-lg-9 mx-auto mt-4">
+                                <div class="row row-cols-3 row-cols-md-6 g-2 justify-content-center">
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends-s1'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645979384ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-s1-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends S1</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Variasi kecil</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends S1</small></b><br>
+                                                    <small class="text-sm text-primary">Variasi kecil</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645974881ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Diamonds ML</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends</small></b><br>
+                                                    <small class="text-sm text-primary">Diamonds ML</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645974881ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Diamonds ML</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends</small></b><br>
+                                                    <small class="text-sm text-primary">Diamonds ML</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645974881ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Diamonds ML</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends</small></b><br>
+                                                    <small class="text-sm text-primary">Diamonds ML</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645974881ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Diamonds ML</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends</small></b><br>
+                                                    <small class="text-sm text-primary">Diamonds ML</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-5 mb-5">
+                                        <div class="card bg-dark shadow h-100 mb-4" style="cursor:pointer;" onclick="window.location='https://oioistore.com/order/mobile-legends'">
+                                            <div class="row h-100">
+                                                <div class="col mt-4 mb-lg-2 text-center">
+                                                    <img src="https://oioistore.com/assets/img/1645974881ml.jpg" class="card-img-top img-item translate-middle" alt="mobile-legends-icon">
+                                                </div>
+                                                <div class="col card-body mt-4 py-md-0 d-lg-none text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <b><small class="text-sm text-light">Mobile Legends</small></b>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <small class="text-sm text-primary">Diamonds ML</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col card-body py-md-0 mt-4 mb-3 d-none d-lg-block text-center">
+                                                    <b><small class="text-sm text-light">Mobile Legends</small></b><br>
+                                                    <small class="text-sm text-primary">Diamonds ML</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+        <!-- FOOTER -->
+        <footer class="footer pt-1 mt-auto border-dark shadow-lg static-bottom">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="https://takapedia.com/assets/img/settings/1649853749takapedia.png" alt="LOGO" style="float:left;margin-left:2%;height:40px;width:40px; " class="bi me-2">
+                        <h5 class="text-uppercase mt-2" style="margin:0">TAKAPEDIA</h5>
+                        <div class="mt-2">
+                            <p>Takapedia Adalah Toko Specialist Game Mobile Legends No.1 Murah , Aman &amp; Terpercaya</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="mt-2">Menu</h5>
+                        <div class="mt-2">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="/" class="nav-link text-white ">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/status" class="nav-link text-white ">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Check Invoice
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/contact-us" class="nav-link text-white ">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Contact us
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/hitungwr" class="nav-link text-white ">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Hitung WR ML
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5 class="mt-2">Other Services</h5>
+                        <div class="mt-2">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/order/diamond-fast-v2-proses-otomatis" class="nav-link text-white">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Diamond Fast v2
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/order/paket-joki-jasa-joki" class="nav-link text-white">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Paket Joki
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/order/joki-rank-jasa-joki" class="nav-link text-white">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Joki Rank
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/order/joki-classic-jasa-joki" class="nav-link text-white">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Joki Classic
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://takapedia.com/order/gift-kharisma-proses-manual" class="nav-link text-white">
+                                        <i class="fa fa-angle-right text-primary"></i>
+                                        Gift Kharisma
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-2">
+                <div class="row" id="footer-credit">
+                    <div class="col">
+                        <div class="container mt-2 mb-2 text-center">
+                            <small>
+                                Copyright © 2022 by <a href="/" class="text-white">DANZJOKI</a>
+                                - <a href="https://takapedia.com/terms-and-conditions" class="text-white">Terms and
+                                conditions</a>
+                                - <a href="https://takapedia.com/privacy-policy" class="text-white">Privacy Policy</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+    </body>
+</html>
