@@ -7,7 +7,7 @@ body {
   background-color: #001B35;
   opacity: 0.8;
   background-size: 10px 10px;
-  background-image: repeating-linear-gradient(45deg, #001d38 0, #001d38 1px, #001B35 0, #001B35 50%);
+  background-image: repeating-linear-gradient(45deg, #000020 0, #000020 1px, #000042 0, #000042 50%);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -85,8 +85,22 @@ footer {
   position:absolute !important;
 }
 
+.danz-card {
+  color:#000030;
+  background-color:#000030;
+}
+
+.danz-card-title{
+  color:white;
+}
+
+.btn-primary-danz {
+  border-color:#ffed75;
+  color:#ffed75;;
+}
+
 .primary-danz {
-  color:#0066CC;
+  color:#ffed75;
 }
 
 
