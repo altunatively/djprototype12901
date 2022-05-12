@@ -9,6 +9,7 @@ body {
   background-size: 10px 10px;
   background-image: repeating-linear-gradient(45deg, #000020 0, #000020 1px, #000042 0, #000042 50%);
   font-family: 'Poppins', sans-serif;
+  color:white;
 }
 
 nav {
@@ -86,7 +87,6 @@ footer {
 }
 
 .danz-card {
-  color:#000030;
   background-color:#000030;
 }
 
@@ -94,14 +94,92 @@ footer {
   color:white;
 }
 
-.btn-primary-danz {
+.btn-outline-primary-danz {
   border-color:#ffed75;
-  color:#ffed75;;
+  color:#ffed75;
+}
+.btn-primary-danz {
+  color:black;
+  background-color:#ffed75;
+}
+
+.btn-primary-danz:hover {
+  background-color:#ffed75;
+}
+
+a.btn-primary-danz:hover{
+  background-color:#ffed75;
+  color:black;
 }
 
 .primary-danz {
   color:#ffed75;
 }
+
+.secondary-danz {
+  color:#001B35;
+}
+
+/* PRODUCT CONTENT
+-------------------------------------------------- */
+
+
+
+
+.list-group-item {
+  user-select: none;
+}
+
+.list-group input[type="radio"] {
+  display: none;
+}
+
+.list-group input[type="radio"]+.list-group-item:hover {
+  cursor: pointer;
+  background-color: #ffed75;
+  color: black;
+  border-color: #001B35;
+  border-radius: 3px;
+}
+
+.list-group input[type="radio"]:checked+.list-group-item {
+  background-color: #ffed75;
+  color: black;
+}
+
+.list-group input[type="radio"]+.list-group-payment {
+  color: white;
+  filter:grayscale(1);
+}
+
+.list-group input[type="radio"]:checked+.list-group-payment {
+  background-color: #ffed75;
+  color: black;
+  filter:grayscale(0);
+}
+
+.paymentMethod{
+  padding-top:2rem;
+  border-bottom:1px solid gray;
+}
+
+.paymentMethodSeparator{
+  border-bottom:1px solid gray;
+}
+
+.paymentMethodimg{
+  display: inline;
+  max-width: 40px;
+  width:auto;
+  height: auto;
+  margin-right:1rem;
+  background-color:white;
+}
+
+.paymentMethod:hover{
+  cursor:pointer;
+}
+
 
 
 /* RESPONSIVE CSS
