@@ -152,6 +152,10 @@ a.btn-primary-danz:hover{
   filter:grayscale(1);
 }
 
+.list-group input[type="radio"]:hover+.list-group-payment {
+  cursor:pointer;
+}
+
 .list-group input[type="radio"]:checked+.list-group-payment {
   background-color: #ffed75;
   color: black;
