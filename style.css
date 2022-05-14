@@ -4,10 +4,10 @@
 
 body {
   padding-top: 3rem;
-  background-color: #001B35;
-  opacity: 0.8;
+  background-color: #280031;
+  /* opacity: 0.8;
   background-size: 10px 10px;
-  background-image: repeating-linear-gradient(45deg, #000020 0, #000020 1px, #000042 0, #000042 50%);
+  background-image: repeating-linear-gradient(45deg, #000020 0, #000020 1px, #000042 0, #000042 50%); */
   font-family: 'Poppins', sans-serif;
   color:white;
 }
@@ -87,7 +87,7 @@ footer {
 }
 
 .danz-card {
-  background-color:#000030;
+  background-color:#32103a;
 }
 
 .danz-card-title{
